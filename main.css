@@ -1,7 +1,8 @@
 .container { 
     width: 100vw;
-    height: 30vh;
+    height: 100vh;
     padding: 15px;
+    background-color: lightpink;
 }
 
 .form {
@@ -12,11 +13,22 @@
 
 .tittle1 {
     margin: 15px 0 0 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.label-form {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .input-form {
     margin-top: 5px;
+    &:focus {
+        box-shadow: inset 2px 2px 1px grey;
+        outline: none;
+      }
 }
+
+
 
 .submit {
     background-color: lightseagreen;
@@ -25,19 +37,27 @@
     border-radius: 10px;
     margin-top: 20px;
     width: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    &:hover {
+        opacity: 80%;
+}
 }
 
 .paragraph1 {
     border: solid grey 1px;
-    width: 30%;
-    height: 20%;
     margin-top: 20px;
+    background-color: lightgray;
+    box-shadow: 1px 1px 1px 1px;
+    outline: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .paragraph2 {
     border: solid grey 1px;
-    width: 30%;
-    height: 20%;
     margin-top: 20px;
+    background-color: lightgray;
+    box-shadow: 1px 1px 1px 1px;
+    outline: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
